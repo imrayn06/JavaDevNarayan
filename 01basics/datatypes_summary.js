@@ -43,3 +43,18 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber); // datatype = bigint
+
+
+//Stack Memory(Primitive) and Heap Memory(Non Primitive)
+
+let myName = "Rayn"
+
+let anotherName = myName
+
+
+console.log(anotherName);
+
+anotherName = "Dutta"
+
+console.log(myName);
+console.log(anotherName);
