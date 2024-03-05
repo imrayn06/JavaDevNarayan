@@ -32,22 +32,24 @@ for (let i = 0; i <  myArr.length; i++){
 // break and continue
 
 
-// for (let i = 0; i <= 20; i++) {
+ for (let i = 0; i <= 20; i++) {
 //     console.log(`Value of i : ${i}`);
-//     if ( i == 5 ) {
+    if ( i == 5 ) {
 //         console.log(`detected 5`);
-//         break
-//     }
+       break
+    }
     
     
-// }
+ }
+
+
 for (let i = 0; i <= 20; i++) {
     
     if ( i == 5 ) {
-        console.log(`detected 5`);
+        // console.log(`detected 5`);
         continue
     }
 
-    console.log(`value of i : ${i}`);
+    // console.log(`value of i : ${i}`);
     
 }
